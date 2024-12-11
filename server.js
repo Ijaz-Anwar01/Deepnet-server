@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB connection
-mongoose.connect('mongodb://localhost:27017/menuapp',)
+mongoose.connect('mongodb+srv://ijasanwar1:bukSN52k2X1a3ko0@cluster0.qe0m6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',)
 .then(() => console.log('Connected to MongoDB'))
 .catch((error) => console.log('MongoDB connection error:', error));
 
